@@ -2,22 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Results</title>
+    <meta name="viewport" content="width=, initial-scale=" />
+    <title>Home</title>
   </head>
   <body>
     
     <nav>
-      <a href="index.html">Home</a>
-      <a href="signup.html">Sign UP</a>
-
+      <a href="index.html"><b>Index</b></a>
+      <a href="./pages/signup.html"><b>Sign UP</b></a>
+      <h1>Home</h1>
     </nav>
 
-    <h1>Results</h1>
-
-    <div id="result"></div>
-
-    <script src="src/results.js"></script>
+        <table border="solid">
+                <thead>
+                  <th>Item</th><th>Qty</th><th>Price</th><th>Total</th>
+                </thead>
+                <tbody>
+                   <tr>
+                        <td>Milk</td><td>2</td><td>$8.00</td><td>$16.00</td>
+                 </tr>
+                  <tr>
+                        <td>Eggs Pack</td><td>1</td><td>$6.00</td><td>$6.00</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                        <td>Total</td><td></td><td></td><td>$22.00</td>                          </tr>
+                </tfoot>
+        </table>
+    <script src="script.js"></script>
   </body>
 </html>
